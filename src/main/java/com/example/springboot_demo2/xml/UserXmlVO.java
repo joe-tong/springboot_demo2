@@ -5,6 +5,7 @@ import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlProperty;
 import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlRootElement;
 import lombok.Data;
 
+import java.util.ArrayList;
 import java.util.List;
 
 @JacksonXmlRootElement(localName = "response")
@@ -16,9 +17,22 @@ public class UserXmlVO {
 
     @JacksonXmlElementWrapper(useWrapping = true)
     @JacksonXmlProperty(localName = "order_info")
-    private List<OrderInfoVO> orderList;
+    private List<OrderInfoVO> orderList = new ArrayList<>();
 
+    public String getName() {
+        return name;
+    }
 
+    public void setName(String name) {
+        this.name = name;
+    }
 
+    public List<OrderInfoVO> getOrderList() {
+        return orderList;
+    }
+
+    public void setOrderList(List<OrderInfoVO> orderList) {
+        this.orderList = orderList;
+    }
 }
 
