@@ -7,77 +7,77 @@ public class OptinalTest {
         System.out.println("Optinal of");
         try {
             of();
-        }catch (Exception e){
-
+        } catch (Exception e) {
+            System.out.println("Exception");
         }
         System.out.println("=========================");
         System.out.println("Optinal ofNullable");
         try {
             ofNullable();
-        }catch (Exception e){
+        } catch (Exception e) {
 
         }
         System.out.println("=========================");
         System.out.println("Optinal empty");
         try {
             empty();
-        }catch (Exception e){
+        } catch (Exception e) {
 
         }
         System.out.println("=========================");
         System.out.println("Optinal get");
         try {
             get();
-        }catch (Exception e){
+        } catch (Exception e) {
 
         }
         System.out.println("=========================");
         System.out.println("Optinal orElse");
         try {
             orElse();
-        }catch (Exception e){
+        } catch (Exception e) {
 
         }
         System.out.println("=========================");
         System.out.println("Optinal orElseGet");
         try {
             orElseGet();
-        }catch (Exception e){
+        } catch (Exception e) {
 
         }
         System.out.println("=========================");
         System.out.println("Optinal orElseThrow");
         try {
             orElseThrow();
-        }catch (Exception e){
+        } catch (Exception e) {
 
         }
         System.out.println("=========================");
         System.out.println("Optinal filter");
         try {
             filter();
-        }catch (Exception e){
+        } catch (Exception e) {
 
         }
         System.out.println("=========================");
         System.out.println("Optinal map");
         try {
             map();
-        }catch (Exception e){
+        } catch (Exception e) {
 
         }
         System.out.println("=========================");
         System.out.println("Optinal flagmap");
         try {
             flagmap();
-        }catch (Exception e){
+        } catch (Exception e) {
 
         }
         System.out.println("=========================");
         System.out.println("Optinal ifpresent");
         try {
             ifpresent();
-        }catch (Exception e){
+        } catch (Exception e) {
 
         }
 
@@ -86,7 +86,7 @@ public class OptinalTest {
     private static void ifpresent() {
         //ifPresent方法的参数是一个Consumer的实现类，Consumer类包含一个抽象方法，该抽象方法对传入的值进行处理，只处理没有返回值。
         Optional<String> stringOptional = Optional.of("zhangsan");
-        stringOptional.ifPresent(e-> System.out.println("我被处理了。。。"+e));
+        stringOptional.ifPresent(e -> System.out.println("我被处理了。。。" + e));
     }
 
     private static void flagmap() {
@@ -171,15 +171,20 @@ public class OptinalTest {
 
     private static void ofNullable() {
         //为指定的值创建Optional对象，不管所传入的值为null不为null，创建的时候都不会报错
-        Optional<String> nullOptional1 = Optional.ofNullable(null);
-        Optional<String> nullOptional2 = Optional.ofNullable("lisi");
+//        Optional<String> nullOptional1 = Optional.ofNullable(null).orElseThrow(()->{
+//            throw new Exception("111");
+//        });
+//        Optional<String> nullOptional2 = Optional.ofNullable("lisi");
     }
 
-    private static void of() {
+    private static void of() throws Exception {
         //创建一个值为张三的String类型的Optional
-        Optional<String> ofOptional = Optional.of("张三");
-        ofOptional.ifPresent(item -> System.out.println(item));
-        //如果我们用of方法创建Optional对象时，所传入的值为null，则抛出NullPointerException如下图所示
-        Optional<String> nullOptional = Optional.of(null);
+        String ids = null;
+        String id = Optional.of(ids).orElseThrow(Exception::new);
+//        Optional<String> ofOptional = (Optional<String>) id;
+//        ofOptional.ifPresent(item -> System.out.println(item));
+//        //如果我们用of方法创建Optional对象时，所传入的值为null，则抛出NullPointerException如下图所示
+//        Optional<String> nullOptional = Optional.of(null);
+
     }
 }

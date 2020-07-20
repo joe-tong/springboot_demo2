@@ -1,0 +1,927 @@
+2020-05-19 16:34:46.669 INFO  com.example.springboot_demo2.SmsServiceTest Line:55  [] - Starting SmsServiceTest on SC-201909071530 with PID 20584 (started by Administrator in D:\workspace\springboot_demo2)
+2020-05-19 16:34:46.671 INFO  com.example.springboot_demo2.SmsServiceTest Line:655 [] - The following profiles are active: test
+2020-05-19 16:34:48.199 INFO  org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor Line:213 [] - No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2020-05-19 16:34:48.207 INFO  org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor Line:300 [] - No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+2020-05-19 16:34:48.213 INFO  org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor Line:460 [] - No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2020-05-19 16:34:48.346 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 [] - Bean 'org.springframework.retry.annotation.RetryConfiguration' of type [org.springframework.retry.annotation.RetryConfiguration$$EnhancerBySpringCGLIB$$cf9b3039] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-19 16:34:48.370 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 [] - Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-19 16:34:48.397 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 [] - Bean 'integrationChannelResolver' of type [org.springframework.integration.support.channel.BeanFactoryChannelResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-19 16:34:48.410 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 [] - Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-19 16:34:48.523 INFO  com.example.springboot_demo2.apisecurity.DecryptAutoConfiguration Line:55  [] - init System Decrypt
+2020-05-19 16:34:48.550 INFO  com.example.springboot_demo2.apisecurity.HmacAutoConfiguration Line:56  [] - init System hmacSha256 sign
+2020-05-19 16:34:49.428 INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Line:69  [] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-05-19 16:34:49.454 INFO  com.example.springboot_demo2.apisecurity.DecryptAutoConfiguration Line:42  [] - init decrypt filter
+2020-05-19 16:34:49.468 INFO  com.example.springboot_demo2.apisecurity.EncryptAutoConfiguration Line:42  [] - init encrypt filter
+2020-05-19 16:34:49.471 INFO  com.example.springboot_demo2.apisecurity.EncryptAutoConfiguration Line:56  [] - init System Encrypt
+2020-05-19 16:34:49.472 INFO  com.example.springboot_demo2.apisecurity.HmacAutoConfiguration Line:41  [] - init hmac filter
+2020-05-19 16:34:50.227 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:171 [] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-19 16:34:50.812 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Line:171 [] - Initializing ExecutorService 'taskScheduler'
+2020-05-19 16:34:50.903 INFO  org.springframework.integration.endpoint.EventDrivenConsumer Line:107 [] - Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2020-05-19 16:34:50.903 INFO  org.springframework.integration.channel.PublishSubscribeChannel Line:64  [] - Channel 'application.errorChannel' has 1 subscriber(s).
+2020-05-19 16:34:50.904 INFO  org.springframework.integration.endpoint.EventDrivenConsumer Line:159 [] - started bean '_org.springframework.integration.errorLogger'
+2020-05-19 16:34:50.904 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:160 [] - Context refreshed
+2020-05-19 16:34:50.924 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:163 [] - Found 1 custom documentation plugin(s)
+2020-05-19 16:34:50.970 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Line:41  [] - Scanning for api listing references
+2020-05-19 16:34:51.220 INFO  com.example.springboot_demo2.SmsServiceTest Line:61  [] - Started SmsServiceTest in 5.236 seconds (JVM running for 6.826)
+2020-05-19 16:34:51.502 INFO  org.springframework.integration.endpoint.EventDrivenConsumer Line:107 [] - Removing {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2020-05-19 16:34:51.503 INFO  org.springframework.integration.channel.PublishSubscribeChannel Line:64  [] - Channel 'application.errorChannel' has 0 subscriber(s).
+2020-05-19 16:34:51.503 INFO  org.springframework.integration.endpoint.EventDrivenConsumer Line:193 [] - stopped bean '_org.springframework.integration.errorLogger'
+2020-05-19 16:34:51.504 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Line:208 [] - Shutting down ExecutorService 'taskScheduler'
+2020-05-19 16:34:51.506 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:208 [] - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-19 16:35:33.334 INFO  com.example.springboot_demo2.SmsServiceTest Line:55  [] - Starting SmsServiceTest on SC-201909071530 with PID 13880 (started by Administrator in D:\workspace\springboot_demo2)
+2020-05-19 16:35:33.336 INFO  com.example.springboot_demo2.SmsServiceTest Line:655 [] - The following profiles are active: test
+2020-05-19 16:35:35.319 INFO  org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor Line:213 [] - No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2020-05-19 16:35:35.327 INFO  org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor Line:300 [] - No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+2020-05-19 16:35:35.333 INFO  org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor Line:460 [] - No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2020-05-19 16:35:35.505 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 [] - Bean 'org.springframework.retry.annotation.RetryConfiguration' of type [org.springframework.retry.annotation.RetryConfiguration$$EnhancerBySpringCGLIB$$8a6f478] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-19 16:35:35.541 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 [] - Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-19 16:35:35.677 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 [] - Bean 'integrationChannelResolver' of type [org.springframework.integration.support.channel.BeanFactoryChannelResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-19 16:35:35.684 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 [] - Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-19 16:35:35.877 INFO  com.example.springboot_demo2.apisecurity.DecryptAutoConfiguration Line:55  [] - init System Decrypt
+2020-05-19 16:35:35.912 INFO  com.example.springboot_demo2.apisecurity.HmacAutoConfiguration Line:56  [] - init System hmacSha256 sign
+2020-05-19 16:35:37.336 INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Line:69  [] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-05-19 16:35:37.372 INFO  com.example.springboot_demo2.apisecurity.DecryptAutoConfiguration Line:42  [] - init decrypt filter
+2020-05-19 16:35:37.421 INFO  com.example.springboot_demo2.apisecurity.EncryptAutoConfiguration Line:42  [] - init encrypt filter
+2020-05-19 16:35:37.426 INFO  com.example.springboot_demo2.apisecurity.EncryptAutoConfiguration Line:56  [] - init System Encrypt
+2020-05-19 16:35:37.427 INFO  com.example.springboot_demo2.apisecurity.HmacAutoConfiguration Line:41  [] - init hmac filter
+2020-05-19 16:35:38.459 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:171 [] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-19 16:35:39.956 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Line:171 [] - Initializing ExecutorService 'taskScheduler'
+2020-05-19 16:35:40.151 INFO  org.springframework.integration.endpoint.EventDrivenConsumer Line:107 [] - Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2020-05-19 16:35:40.153 INFO  org.springframework.integration.channel.PublishSubscribeChannel Line:64  [] - Channel 'application.errorChannel' has 1 subscriber(s).
+2020-05-19 16:35:40.155 INFO  org.springframework.integration.endpoint.EventDrivenConsumer Line:159 [] - started bean '_org.springframework.integration.errorLogger'
+2020-05-19 16:35:40.156 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:160 [] - Context refreshed
+2020-05-19 16:35:40.236 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:163 [] - Found 1 custom documentation plugin(s)
+2020-05-19 16:35:40.391 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Line:41  [] - Scanning for api listing references
+2020-05-19 16:35:40.987 INFO  com.example.springboot_demo2.SmsServiceTest Line:61  [] - Started SmsServiceTest in 8.643 seconds (JVM running for 11.826)
+2020-05-19 16:35:41.467 INFO  org.springframework.integration.endpoint.EventDrivenConsumer Line:107 [] - Removing {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2020-05-19 16:35:41.468 INFO  org.springframework.integration.channel.PublishSubscribeChannel Line:64  [] - Channel 'application.errorChannel' has 0 subscriber(s).
+2020-05-19 16:35:41.468 INFO  org.springframework.integration.endpoint.EventDrivenConsumer Line:193 [] - stopped bean '_org.springframework.integration.errorLogger'
+2020-05-19 16:35:41.469 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Line:208 [] - Shutting down ExecutorService 'taskScheduler'
+2020-05-19 16:35:41.471 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:208 [] - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-19 16:36:14.949 INFO  com.example.springboot_demo2.SmsServiceTest Line:55  [] - Starting SmsServiceTest on SC-201909071530 with PID 21472 (started by Administrator in D:\workspace\springboot_demo2)
+2020-05-19 16:36:14.952 INFO  com.example.springboot_demo2.SmsServiceTest Line:655 [] - The following profiles are active: test
+2020-05-19 16:36:16.705 INFO  org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor Line:213 [] - No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2020-05-19 16:36:16.713 INFO  org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor Line:300 [] - No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+2020-05-19 16:36:16.719 INFO  org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor Line:460 [] - No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2020-05-19 16:36:16.864 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 [] - Bean 'org.springframework.retry.annotation.RetryConfiguration' of type [org.springframework.retry.annotation.RetryConfiguration$$EnhancerBySpringCGLIB$$3f372815] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-19 16:36:16.931 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 [] - Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-19 16:36:17.035 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 [] - Bean 'integrationChannelResolver' of type [org.springframework.integration.support.channel.BeanFactoryChannelResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-19 16:36:17.042 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 [] - Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-19 16:36:17.445 INFO  com.example.springboot_demo2.apisecurity.DecryptAutoConfiguration Line:55  [] - init System Decrypt
+2020-05-19 16:36:17.513 INFO  com.example.springboot_demo2.apisecurity.HmacAutoConfiguration Line:56  [] - init System hmacSha256 sign
+2020-05-19 16:36:19.026 INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Line:69  [] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-05-19 16:36:19.083 INFO  com.example.springboot_demo2.apisecurity.DecryptAutoConfiguration Line:42  [] - init decrypt filter
+2020-05-19 16:36:19.103 INFO  com.example.springboot_demo2.apisecurity.EncryptAutoConfiguration Line:42  [] - init encrypt filter
+2020-05-19 16:36:19.108 INFO  com.example.springboot_demo2.apisecurity.EncryptAutoConfiguration Line:56  [] - init System Encrypt
+2020-05-19 16:36:19.110 INFO  com.example.springboot_demo2.apisecurity.HmacAutoConfiguration Line:41  [] - init hmac filter
+2020-05-19 16:36:20.344 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:171 [] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-19 16:36:21.527 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Line:171 [] - Initializing ExecutorService 'taskScheduler'
+2020-05-19 16:36:21.651 INFO  org.springframework.integration.endpoint.EventDrivenConsumer Line:107 [] - Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2020-05-19 16:36:21.651 INFO  org.springframework.integration.channel.PublishSubscribeChannel Line:64  [] - Channel 'application.errorChannel' has 1 subscriber(s).
+2020-05-19 16:36:21.652 INFO  org.springframework.integration.endpoint.EventDrivenConsumer Line:159 [] - started bean '_org.springframework.integration.errorLogger'
+2020-05-19 16:36:21.652 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:160 [] - Context refreshed
+2020-05-19 16:36:21.674 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:163 [] - Found 1 custom documentation plugin(s)
+2020-05-19 16:36:21.999 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Line:41  [] - Scanning for api listing references
+2020-05-19 16:36:22.584 INFO  com.example.springboot_demo2.SmsServiceTest Line:61  [] - Started SmsServiceTest in 8.394 seconds (JVM running for 10.308)
+2020-05-19 16:39:42.976 INFO  org.springframework.integration.endpoint.EventDrivenConsumer Line:107 [] - Removing {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2020-05-19 16:39:42.976 INFO  org.springframework.integration.channel.PublishSubscribeChannel Line:64  [] - Channel 'application.errorChannel' has 0 subscriber(s).
+2020-05-19 16:39:42.976 INFO  org.springframework.integration.endpoint.EventDrivenConsumer Line:193 [] - stopped bean '_org.springframework.integration.errorLogger'
+2020-05-19 16:39:42.977 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Line:208 [] - Shutting down ExecutorService 'taskScheduler'
+2020-05-19 16:39:42.979 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:208 [] - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-19 16:39:49.443 INFO  com.example.springboot_demo2.SmsServiceTest Line:55  [] - Starting SmsServiceTest on SC-201909071530 with PID 8608 (started by Administrator in D:\workspace\springboot_demo2)
+2020-05-19 16:39:49.445 INFO  com.example.springboot_demo2.SmsServiceTest Line:655 [] - The following profiles are active: test
+2020-05-19 16:39:51.344 INFO  org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor Line:213 [] - No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2020-05-19 16:39:51.351 INFO  org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor Line:300 [] - No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+2020-05-19 16:39:51.358 INFO  org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor Line:460 [] - No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2020-05-19 16:39:51.512 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 [] - Bean 'org.springframework.retry.annotation.RetryConfiguration' of type [org.springframework.retry.annotation.RetryConfiguration$$EnhancerBySpringCGLIB$$d68ee149] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-19 16:39:51.544 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 [] - Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-19 16:39:51.581 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 [] - Bean 'integrationChannelResolver' of type [org.springframework.integration.support.channel.BeanFactoryChannelResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-19 16:39:51.588 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 [] - Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-19 16:39:51.792 INFO  com.example.springboot_demo2.apisecurity.DecryptAutoConfiguration Line:55  [] - init System Decrypt
+2020-05-19 16:39:51.825 INFO  com.example.springboot_demo2.apisecurity.HmacAutoConfiguration Line:56  [] - init System hmacSha256 sign
+2020-05-19 16:39:53.135 INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Line:69  [] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-05-19 16:39:53.181 INFO  com.example.springboot_demo2.apisecurity.DecryptAutoConfiguration Line:42  [] - init decrypt filter
+2020-05-19 16:39:53.202 INFO  com.example.springboot_demo2.apisecurity.EncryptAutoConfiguration Line:42  [] - init encrypt filter
+2020-05-19 16:39:53.205 INFO  com.example.springboot_demo2.apisecurity.EncryptAutoConfiguration Line:56  [] - init System Encrypt
+2020-05-19 16:39:53.207 INFO  com.example.springboot_demo2.apisecurity.HmacAutoConfiguration Line:41  [] - init hmac filter
+2020-05-19 16:39:54.113 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:171 [] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-19 16:39:55.311 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Line:171 [] - Initializing ExecutorService 'taskScheduler'
+2020-05-19 16:39:55.527 INFO  org.springframework.integration.endpoint.EventDrivenConsumer Line:107 [] - Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2020-05-19 16:39:55.528 INFO  org.springframework.integration.channel.PublishSubscribeChannel Line:64  [] - Channel 'application.errorChannel' has 1 subscriber(s).
+2020-05-19 16:39:55.530 INFO  org.springframework.integration.endpoint.EventDrivenConsumer Line:159 [] - started bean '_org.springframework.integration.errorLogger'
+2020-05-19 16:39:55.530 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:160 [] - Context refreshed
+2020-05-19 16:39:55.555 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:163 [] - Found 1 custom documentation plugin(s)
+2020-05-19 16:39:55.611 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Line:41  [] - Scanning for api listing references
+2020-05-19 16:39:56.067 INFO  com.example.springboot_demo2.SmsServiceTest Line:61  [] - Started SmsServiceTest in 7.427 seconds (JVM running for 9.798)
+2020-05-19 17:13:30.398 INFO  org.springframework.integration.endpoint.EventDrivenConsumer Line:107 [] - Removing {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2020-05-19 17:13:30.403 INFO  org.springframework.integration.channel.PublishSubscribeChannel Line:64  [] - Channel 'application.errorChannel' has 0 subscriber(s).
+2020-05-19 17:13:30.404 INFO  org.springframework.integration.endpoint.EventDrivenConsumer Line:193 [] - stopped bean '_org.springframework.integration.errorLogger'
+2020-05-19 17:13:30.411 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Line:208 [] - Shutting down ExecutorService 'taskScheduler'
+2020-05-19 17:13:30.416 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:208 [] - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-19 17:13:39.527 INFO  com.example.springboot_demo2.SmsServiceTest Line:55  [] - Starting SmsServiceTest on SC-201909071530 with PID 9900 (started by Administrator in D:\workspace\springboot_demo2)
+2020-05-19 17:13:39.529 INFO  com.example.springboot_demo2.SmsServiceTest Line:655 [] - The following profiles are active: test
+2020-05-19 17:13:41.454 INFO  org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor Line:213 [] - No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2020-05-19 17:13:41.465 INFO  org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor Line:300 [] - No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+2020-05-19 17:13:41.496 INFO  org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor Line:460 [] - No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2020-05-19 17:13:41.661 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 [] - Bean 'org.springframework.retry.annotation.RetryConfiguration' of type [org.springframework.retry.annotation.RetryConfiguration$$EnhancerBySpringCGLIB$$275c8c81] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-19 17:13:41.741 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 [] - Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-19 17:13:41.782 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 [] - Bean 'integrationChannelResolver' of type [org.springframework.integration.support.channel.BeanFactoryChannelResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-19 17:13:41.788 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 [] - Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-19 17:13:41.921 INFO  com.example.springboot_demo2.apisecurity.DecryptAutoConfiguration Line:55  [] - init System Decrypt
+2020-05-19 17:13:41.966 INFO  com.example.springboot_demo2.apisecurity.HmacAutoConfiguration Line:56  [] - init System hmacSha256 sign
+2020-05-19 17:13:43.047 INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Line:69  [] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-05-19 17:13:43.082 INFO  com.example.springboot_demo2.apisecurity.DecryptAutoConfiguration Line:42  [] - init decrypt filter
+2020-05-19 17:13:43.102 INFO  com.example.springboot_demo2.apisecurity.EncryptAutoConfiguration Line:42  [] - init encrypt filter
+2020-05-19 17:13:43.107 INFO  com.example.springboot_demo2.apisecurity.EncryptAutoConfiguration Line:56  [] - init System Encrypt
+2020-05-19 17:13:43.108 INFO  com.example.springboot_demo2.apisecurity.HmacAutoConfiguration Line:41  [] - init hmac filter
+2020-05-19 17:13:44.137 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:171 [] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-19 17:13:45.223 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Line:171 [] - Initializing ExecutorService 'taskScheduler'
+2020-05-19 17:13:45.371 INFO  org.springframework.integration.endpoint.EventDrivenConsumer Line:107 [] - Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2020-05-19 17:13:45.372 INFO  org.springframework.integration.channel.PublishSubscribeChannel Line:64  [] - Channel 'application.errorChannel' has 1 subscriber(s).
+2020-05-19 17:13:45.372 INFO  org.springframework.integration.endpoint.EventDrivenConsumer Line:159 [] - started bean '_org.springframework.integration.errorLogger'
+2020-05-19 17:13:45.373 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:160 [] - Context refreshed
+2020-05-19 17:13:45.396 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:163 [] - Found 1 custom documentation plugin(s)
+2020-05-19 17:13:45.471 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Line:41  [] - Scanning for api listing references
+2020-05-19 17:13:45.769 INFO  com.example.springboot_demo2.SmsServiceTest Line:61  [] - Started SmsServiceTest in 7.118 seconds (JVM running for 8.962)
+2020-05-19 17:13:45.987 ERROR org.springframework.test.context.TestContextManager Line:248 [] - Caught exception while allowing TestExecutionListener [org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@4f3bbf68] to prepare test instance [com.example.springboot_demo2.SmsServiceTest@7d977a20]
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.example.springboot_demo2.SmsServiceTest': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.example.springboot_demo2.condition.SmsService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:337)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1429)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:393)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:119)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:43)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:244)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.example.springboot_demo2.condition.SmsService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1695)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1253)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:537)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:513)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:653)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:224)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:116)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:334)
+	... 26 common frames omitted
+2020-05-19 17:13:46.307 INFO  org.springframework.integration.endpoint.EventDrivenConsumer Line:107 [] - Removing {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2020-05-19 17:13:46.308 INFO  org.springframework.integration.channel.PublishSubscribeChannel Line:64  [] - Channel 'application.errorChannel' has 0 subscriber(s).
+2020-05-19 17:13:46.309 INFO  org.springframework.integration.endpoint.EventDrivenConsumer Line:193 [] - stopped bean '_org.springframework.integration.errorLogger'
+2020-05-19 17:13:46.311 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Line:208 [] - Shutting down ExecutorService 'taskScheduler'
+2020-05-19 17:13:46.316 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:208 [] - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-19 17:14:24.999 INFO  com.example.springboot_demo2.SmsServiceTest Line:55  [] - Starting SmsServiceTest on SC-201909071530 with PID 2204 (started by Administrator in D:\workspace\springboot_demo2)
+2020-05-19 17:14:25.000 INFO  com.example.springboot_demo2.SmsServiceTest Line:655 [] - The following profiles are active: test
+2020-05-19 17:14:26.964 INFO  org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor Line:213 [] - No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2020-05-19 17:14:26.972 INFO  org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor Line:300 [] - No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+2020-05-19 17:14:26.977 INFO  org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor Line:460 [] - No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2020-05-19 17:14:27.124 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 [] - Bean 'org.springframework.retry.annotation.RetryConfiguration' of type [org.springframework.retry.annotation.RetryConfiguration$$EnhancerBySpringCGLIB$$3b76dd8a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-19 17:14:27.160 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 [] - Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-19 17:14:27.236 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 [] - Bean 'integrationChannelResolver' of type [org.springframework.integration.support.channel.BeanFactoryChannelResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-19 17:14:27.272 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 [] - Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-19 17:14:27.440 INFO  com.example.springboot_demo2.apisecurity.DecryptAutoConfiguration Line:55  [] - init System Decrypt
+2020-05-19 17:14:27.517 INFO  com.example.springboot_demo2.apisecurity.HmacAutoConfiguration Line:56  [] - init System hmacSha256 sign
+2020-05-19 17:14:29.547 INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Line:69  [] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-05-19 17:14:29.582 INFO  com.example.springboot_demo2.apisecurity.DecryptAutoConfiguration Line:42  [] - init decrypt filter
+2020-05-19 17:14:29.616 INFO  com.example.springboot_demo2.apisecurity.EncryptAutoConfiguration Line:42  [] - init encrypt filter
+2020-05-19 17:14:29.621 INFO  com.example.springboot_demo2.apisecurity.EncryptAutoConfiguration Line:56  [] - init System Encrypt
+2020-05-19 17:14:29.626 INFO  com.example.springboot_demo2.apisecurity.HmacAutoConfiguration Line:41  [] - init hmac filter
+2020-05-19 17:14:30.431 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:171 [] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-19 17:14:31.353 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Line:171 [] - Initializing ExecutorService 'taskScheduler'
+2020-05-19 17:14:31.487 INFO  org.springframework.integration.endpoint.EventDrivenConsumer Line:107 [] - Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2020-05-19 17:14:31.487 INFO  org.springframework.integration.channel.PublishSubscribeChannel Line:64  [] - Channel 'application.errorChannel' has 1 subscriber(s).
+2020-05-19 17:14:31.487 INFO  org.springframework.integration.endpoint.EventDrivenConsumer Line:159 [] - started bean '_org.springframework.integration.errorLogger'
+2020-05-19 17:14:31.488 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:160 [] - Context refreshed
+2020-05-19 17:14:31.505 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:163 [] - Found 1 custom documentation plugin(s)
+2020-05-19 17:14:31.560 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Line:41  [] - Scanning for api listing references
+2020-05-19 17:14:32.225 INFO  com.example.springboot_demo2.SmsServiceTest Line:61  [] - Started SmsServiceTest in 7.939 seconds (JVM running for 9.769)
+2020-05-19 17:14:32.276 ERROR org.springframework.test.context.TestContextManager Line:248 [] - Caught exception while allowing TestExecutionListener [org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@4f3bbf68] to prepare test instance [com.example.springboot_demo2.SmsServiceTest@3de88f64]
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.example.springboot_demo2.SmsServiceTest': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.example.springboot_demo2.condition.SmsService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:337)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1429)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:393)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:119)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:43)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:244)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.example.springboot_demo2.condition.SmsService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1695)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1253)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:537)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:513)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:653)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:224)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:116)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:334)
+	... 26 common frames omitted
+2020-05-19 17:14:32.305 INFO  org.springframework.integration.endpoint.EventDrivenConsumer Line:107 [] - Removing {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2020-05-19 17:14:32.306 INFO  org.springframework.integration.channel.PublishSubscribeChannel Line:64  [] - Channel 'application.errorChannel' has 0 subscriber(s).
+2020-05-19 17:14:32.307 INFO  org.springframework.integration.endpoint.EventDrivenConsumer Line:193 [] - stopped bean '_org.springframework.integration.errorLogger'
+2020-05-19 17:14:32.308 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Line:208 [] - Shutting down ExecutorService 'taskScheduler'
+2020-05-19 17:14:32.311 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:208 [] - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-19 17:16:24.790 INFO  com.example.springboot_demo2.SmsServiceTest Line:55  [] - Starting SmsServiceTest on SC-201909071530 with PID 21228 (started by Administrator in D:\workspace\springboot_demo2)
+2020-05-19 17:16:24.792 INFO  com.example.springboot_demo2.SmsServiceTest Line:655 [] - The following profiles are active: test
+2020-05-19 17:16:26.787 INFO  org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor Line:213 [] - No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2020-05-19 17:16:26.795 INFO  org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor Line:300 [] - No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+2020-05-19 17:16:26.801 INFO  org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor Line:460 [] - No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2020-05-19 17:16:26.947 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 [] - Bean 'org.springframework.retry.annotation.RetryConfiguration' of type [org.springframework.retry.annotation.RetryConfiguration$$EnhancerBySpringCGLIB$$4f128f44] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-19 17:16:26.988 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 [] - Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-19 17:16:27.043 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 [] - Bean 'integrationChannelResolver' of type [org.springframework.integration.support.channel.BeanFactoryChannelResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-19 17:16:27.053 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 [] - Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-19 17:16:27.177 INFO  com.example.springboot_demo2.apisecurity.DecryptAutoConfiguration Line:55  [] - init System Decrypt
+2020-05-19 17:16:27.209 INFO  com.example.springboot_demo2.apisecurity.HmacAutoConfiguration Line:56  [] - init System hmacSha256 sign
+2020-05-19 17:16:28.427 INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Line:69  [] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-05-19 17:16:28.468 INFO  com.example.springboot_demo2.apisecurity.DecryptAutoConfiguration Line:42  [] - init decrypt filter
+2020-05-19 17:16:28.484 INFO  com.example.springboot_demo2.apisecurity.EncryptAutoConfiguration Line:42  [] - init encrypt filter
+2020-05-19 17:16:28.488 INFO  com.example.springboot_demo2.apisecurity.EncryptAutoConfiguration Line:56  [] - init System Encrypt
+2020-05-19 17:16:28.490 INFO  com.example.springboot_demo2.apisecurity.HmacAutoConfiguration Line:41  [] - init hmac filter
+2020-05-19 17:16:29.259 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:171 [] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-19 17:16:30.158 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Line:171 [] - Initializing ExecutorService 'taskScheduler'
+2020-05-19 17:16:30.284 INFO  org.springframework.integration.endpoint.EventDrivenConsumer Line:107 [] - Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2020-05-19 17:16:30.285 INFO  org.springframework.integration.channel.PublishSubscribeChannel Line:64  [] - Channel 'application.errorChannel' has 1 subscriber(s).
+2020-05-19 17:16:30.286 INFO  org.springframework.integration.endpoint.EventDrivenConsumer Line:159 [] - started bean '_org.springframework.integration.errorLogger'
+2020-05-19 17:16:30.286 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:160 [] - Context refreshed
+2020-05-19 17:16:30.306 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:163 [] - Found 1 custom documentation plugin(s)
+2020-05-19 17:16:30.367 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Line:41  [] - Scanning for api listing references
+2020-05-19 17:16:30.758 INFO  com.example.springboot_demo2.SmsServiceTest Line:61  [] - Started SmsServiceTest in 6.646 seconds (JVM running for 8.869)
+2020-05-19 17:16:31.116 ERROR org.springframework.test.context.TestContextManager Line:248 [] - Caught exception while allowing TestExecutionListener [org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@7a220c9a] to prepare test instance [com.example.springboot_demo2.SmsServiceTest@3350ab4]
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.example.springboot_demo2.SmsServiceTest': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.example.springboot_demo2.condition.SmsService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:337)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1429)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:393)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:119)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:43)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:244)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.example.springboot_demo2.condition.SmsService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1695)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1253)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:537)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:513)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:653)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:224)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:116)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:334)
+	... 26 common frames omitted
+2020-05-19 17:16:31.202 INFO  org.springframework.integration.endpoint.EventDrivenConsumer Line:107 [] - Removing {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2020-05-19 17:16:31.203 INFO  org.springframework.integration.channel.PublishSubscribeChannel Line:64  [] - Channel 'application.errorChannel' has 0 subscriber(s).
+2020-05-19 17:16:31.203 INFO  org.springframework.integration.endpoint.EventDrivenConsumer Line:193 [] - stopped bean '_org.springframework.integration.errorLogger'
+2020-05-19 17:16:31.204 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Line:208 [] - Shutting down ExecutorService 'taskScheduler'
+2020-05-19 17:16:31.208 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:208 [] - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-19 17:16:56.350 INFO  com.example.springboot_demo2.SmsServiceTest Line:55  [] - Starting SmsServiceTest on SC-201909071530 with PID 21388 (started by Administrator in D:\workspace\springboot_demo2)
+2020-05-19 17:16:56.352 INFO  com.example.springboot_demo2.SmsServiceTest Line:655 [] - The following profiles are active: test
+2020-05-19 17:16:58.181 INFO  org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor Line:213 [] - No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2020-05-19 17:16:58.189 INFO  org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor Line:300 [] - No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+2020-05-19 17:16:58.195 INFO  org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor Line:460 [] - No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2020-05-19 17:16:58.335 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 [] - Bean 'org.springframework.retry.annotation.RetryConfiguration' of type [org.springframework.retry.annotation.RetryConfiguration$$EnhancerBySpringCGLIB$$cdf98ce0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-19 17:16:58.393 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 [] - Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-19 17:16:58.460 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 [] - Bean 'integrationChannelResolver' of type [org.springframework.integration.support.channel.BeanFactoryChannelResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-19 17:16:58.467 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 [] - Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-19 17:16:58.603 INFO  com.example.springboot_demo2.apisecurity.DecryptAutoConfiguration Line:55  [] - init System Decrypt
+2020-05-19 17:16:58.653 INFO  com.example.springboot_demo2.apisecurity.HmacAutoConfiguration Line:56  [] - init System hmacSha256 sign
+2020-05-19 17:16:59.786 INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Line:69  [] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-05-19 17:16:59.822 INFO  com.example.springboot_demo2.apisecurity.DecryptAutoConfiguration Line:42  [] - init decrypt filter
+2020-05-19 17:16:59.873 INFO  com.example.springboot_demo2.apisecurity.EncryptAutoConfiguration Line:42  [] - init encrypt filter
+2020-05-19 17:16:59.890 INFO  com.example.springboot_demo2.apisecurity.EncryptAutoConfiguration Line:56  [] - init System Encrypt
+2020-05-19 17:16:59.894 INFO  com.example.springboot_demo2.apisecurity.HmacAutoConfiguration Line:41  [] - init hmac filter
+2020-05-19 17:17:01.445 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:171 [] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-19 17:17:02.448 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Line:171 [] - Initializing ExecutorService 'taskScheduler'
+2020-05-19 17:17:02.586 INFO  org.springframework.integration.endpoint.EventDrivenConsumer Line:107 [] - Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2020-05-19 17:17:02.586 INFO  org.springframework.integration.channel.PublishSubscribeChannel Line:64  [] - Channel 'application.errorChannel' has 1 subscriber(s).
+2020-05-19 17:17:02.586 INFO  org.springframework.integration.endpoint.EventDrivenConsumer Line:159 [] - started bean '_org.springframework.integration.errorLogger'
+2020-05-19 17:17:02.587 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:160 [] - Context refreshed
+2020-05-19 17:17:02.606 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:163 [] - Found 1 custom documentation plugin(s)
+2020-05-19 17:17:02.697 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Line:41  [] - Scanning for api listing references
+2020-05-19 17:17:03.133 INFO  com.example.springboot_demo2.SmsServiceTest Line:61  [] - Started SmsServiceTest in 7.514 seconds (JVM running for 9.733)
+2020-05-19 17:17:03.191 ERROR org.springframework.test.context.TestContextManager Line:248 [] - Caught exception while allowing TestExecutionListener [org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@4f3bbf68] to prepare test instance [com.example.springboot_demo2.SmsServiceTest@50b4364]
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.example.springboot_demo2.SmsServiceTest': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'custom.env' in value "${custom.env}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:403)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1429)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:393)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:119)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:43)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:244)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'custom.env' in value "${custom.env}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:178)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:124)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:236)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:175)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:908)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1228)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:636)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:116)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:397)
+	... 26 common frames omitted
+2020-05-19 17:17:03.240 INFO  org.springframework.integration.endpoint.EventDrivenConsumer Line:107 [] - Removing {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2020-05-19 17:17:03.240 INFO  org.springframework.integration.channel.PublishSubscribeChannel Line:64  [] - Channel 'application.errorChannel' has 0 subscriber(s).
+2020-05-19 17:17:03.241 INFO  org.springframework.integration.endpoint.EventDrivenConsumer Line:193 [] - stopped bean '_org.springframework.integration.errorLogger'
+2020-05-19 17:17:03.248 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Line:208 [] - Shutting down ExecutorService 'taskScheduler'
+2020-05-19 17:17:03.254 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:208 [] - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-19 17:18:28.980 INFO  com.example.springboot_demo2.SmsServiceTest Line:55  [] - Starting SmsServiceTest on SC-201909071530 with PID 11068 (started by Administrator in D:\workspace\springboot_demo2)
+2020-05-19 17:18:28.982 INFO  com.example.springboot_demo2.SmsServiceTest Line:655 [] - The following profiles are active: test
+2020-05-19 17:18:30.643 INFO  org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor Line:213 [] - No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2020-05-19 17:18:30.650 INFO  org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor Line:300 [] - No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+2020-05-19 17:18:30.656 INFO  org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor Line:460 [] - No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2020-05-19 17:18:30.810 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 [] - Bean 'org.springframework.retry.annotation.RetryConfiguration' of type [org.springframework.retry.annotation.RetryConfiguration$$EnhancerBySpringCGLIB$$9e99e19e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-19 17:18:30.880 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 [] - Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-19 17:18:30.931 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 [] - Bean 'integrationChannelResolver' of type [org.springframework.integration.support.channel.BeanFactoryChannelResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-19 17:18:30.942 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 [] - Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-19 17:18:31.070 INFO  com.example.springboot_demo2.apisecurity.DecryptAutoConfiguration Line:55  [] - init System Decrypt
+2020-05-19 17:18:31.128 INFO  com.example.springboot_demo2.apisecurity.HmacAutoConfiguration Line:56  [] - init System hmacSha256 sign
+2020-05-19 17:18:32.727 INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Line:69  [] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-05-19 17:18:32.797 INFO  com.example.springboot_demo2.apisecurity.DecryptAutoConfiguration Line:42  [] - init decrypt filter
+2020-05-19 17:18:32.818 INFO  com.example.springboot_demo2.apisecurity.EncryptAutoConfiguration Line:42  [] - init encrypt filter
+2020-05-19 17:18:32.822 INFO  com.example.springboot_demo2.apisecurity.EncryptAutoConfiguration Line:56  [] - init System Encrypt
+2020-05-19 17:18:32.823 INFO  com.example.springboot_demo2.apisecurity.HmacAutoConfiguration Line:41  [] - init hmac filter
+2020-05-19 17:18:33.628 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:171 [] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-19 17:18:34.685 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Line:171 [] - Initializing ExecutorService 'taskScheduler'
+2020-05-19 17:18:34.837 INFO  org.springframework.integration.endpoint.EventDrivenConsumer Line:107 [] - Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2020-05-19 17:18:34.837 INFO  org.springframework.integration.channel.PublishSubscribeChannel Line:64  [] - Channel 'application.errorChannel' has 1 subscriber(s).
+2020-05-19 17:18:34.838 INFO  org.springframework.integration.endpoint.EventDrivenConsumer Line:159 [] - started bean '_org.springframework.integration.errorLogger'
+2020-05-19 17:18:34.838 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:160 [] - Context refreshed
+2020-05-19 17:18:34.858 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:163 [] - Found 1 custom documentation plugin(s)
+2020-05-19 17:18:34.934 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Line:41  [] - Scanning for api listing references
+2020-05-19 17:18:35.270 INFO  com.example.springboot_demo2.SmsServiceTest Line:61  [] - Started SmsServiceTest in 7.01 seconds (JVM running for 8.658)
+2020-05-19 17:18:35.329 ERROR org.springframework.test.context.TestContextManager Line:248 [] - Caught exception while allowing TestExecutionListener [org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@479460a6] to prepare test instance [com.example.springboot_demo2.SmsServiceTest@3a70575]
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.example.springboot_demo2.SmsServiceTest': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'custom.env' in value "${custom.env}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:403)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1429)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:393)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:119)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:43)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:244)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'custom.env' in value "${custom.env}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:178)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:124)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:236)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:175)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:908)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1228)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:636)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:116)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:397)
+	... 26 common frames omitted
+2020-05-19 17:18:35.362 INFO  org.springframework.integration.endpoint.EventDrivenConsumer Line:107 [] - Removing {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2020-05-19 17:18:35.362 INFO  org.springframework.integration.channel.PublishSubscribeChannel Line:64  [] - Channel 'application.errorChannel' has 0 subscriber(s).
+2020-05-19 17:18:35.363 INFO  org.springframework.integration.endpoint.EventDrivenConsumer Line:193 [] - stopped bean '_org.springframework.integration.errorLogger'
+2020-05-19 17:18:35.363 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Line:208 [] - Shutting down ExecutorService 'taskScheduler'
+2020-05-19 17:18:35.366 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:208 [] - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-19 17:20:26.425 INFO  com.example.springboot_demo2.SmsServiceTest Line:55  [] - Starting SmsServiceTest on SC-201909071530 with PID 14768 (started by Administrator in D:\workspace\springboot_demo2)
+2020-05-19 17:20:26.427 INFO  com.example.springboot_demo2.SmsServiceTest Line:655 [] - The following profiles are active: test
+2020-05-19 17:20:28.814 INFO  org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor Line:213 [] - No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2020-05-19 17:20:28.823 INFO  org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor Line:300 [] - No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+2020-05-19 17:20:28.833 INFO  org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor Line:460 [] - No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2020-05-19 17:20:29.044 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 [] - Bean 'org.springframework.retry.annotation.RetryConfiguration' of type [org.springframework.retry.annotation.RetryConfiguration$$EnhancerBySpringCGLIB$$bd8d679a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-19 17:20:29.101 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 [] - Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-19 17:20:29.155 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 [] - Bean 'integrationChannelResolver' of type [org.springframework.integration.support.channel.BeanFactoryChannelResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-19 17:20:29.162 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 [] - Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-19 17:20:29.364 INFO  com.example.springboot_demo2.apisecurity.DecryptAutoConfiguration Line:55  [] - init System Decrypt
+2020-05-19 17:20:29.444 INFO  com.example.springboot_demo2.apisecurity.HmacAutoConfiguration Line:56  [] - init System hmacSha256 sign
+2020-05-19 17:20:30.732 INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Line:69  [] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-05-19 17:20:30.776 INFO  com.example.springboot_demo2.apisecurity.DecryptAutoConfiguration Line:42  [] - init decrypt filter
+2020-05-19 17:20:30.800 INFO  com.example.springboot_demo2.apisecurity.EncryptAutoConfiguration Line:42  [] - init encrypt filter
+2020-05-19 17:20:30.803 INFO  com.example.springboot_demo2.apisecurity.EncryptAutoConfiguration Line:56  [] - init System Encrypt
+2020-05-19 17:20:30.804 INFO  com.example.springboot_demo2.apisecurity.HmacAutoConfiguration Line:41  [] - init hmac filter
+2020-05-19 17:20:32.105 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:171 [] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-19 17:20:33.530 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Line:171 [] - Initializing ExecutorService 'taskScheduler'
+2020-05-19 17:20:33.697 INFO  org.springframework.integration.endpoint.EventDrivenConsumer Line:107 [] - Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2020-05-19 17:20:33.699 INFO  org.springframework.integration.channel.PublishSubscribeChannel Line:64  [] - Channel 'application.errorChannel' has 1 subscriber(s).
+2020-05-19 17:20:33.699 INFO  org.springframework.integration.endpoint.EventDrivenConsumer Line:159 [] - started bean '_org.springframework.integration.errorLogger'
+2020-05-19 17:20:33.703 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:160 [] - Context refreshed
+2020-05-19 17:20:33.736 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:163 [] - Found 1 custom documentation plugin(s)
+2020-05-19 17:20:33.829 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Line:41  [] - Scanning for api listing references
+2020-05-19 17:20:34.301 INFO  com.example.springboot_demo2.SmsServiceTest Line:61  [] - Started SmsServiceTest in 9.006 seconds (JVM running for 11.974)
+2020-05-19 17:20:34.363 ERROR org.springframework.test.context.TestContextManager Line:248 [] - Caught exception while allowing TestExecutionListener [org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@1efe439d] to prepare test instance [com.example.springboot_demo2.SmsServiceTest@5072e638]
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.example.springboot_demo2.SmsServiceTest': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'custom.env' in value "${custom.env}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:403)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1429)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:393)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:119)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:43)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:244)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'custom.env' in value "${custom.env}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:178)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:124)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:236)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:175)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:908)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1228)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:636)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:116)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:397)
+	... 26 common frames omitted
+2020-05-19 17:20:34.388 INFO  org.springframework.integration.endpoint.EventDrivenConsumer Line:107 [] - Removing {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2020-05-19 17:20:34.389 INFO  org.springframework.integration.channel.PublishSubscribeChannel Line:64  [] - Channel 'application.errorChannel' has 0 subscriber(s).
+2020-05-19 17:20:34.389 INFO  org.springframework.integration.endpoint.EventDrivenConsumer Line:193 [] - stopped bean '_org.springframework.integration.errorLogger'
+2020-05-19 17:20:34.390 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Line:208 [] - Shutting down ExecutorService 'taskScheduler'
+2020-05-19 17:20:34.392 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:208 [] - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-19 17:21:38.601 INFO  com.example.springboot_demo2.SmsServiceTest Line:55  [] - Starting SmsServiceTest on SC-201909071530 with PID 13040 (started by Administrator in D:\workspace\springboot_demo2)
+2020-05-19 17:21:38.603 INFO  com.example.springboot_demo2.SmsServiceTest Line:655 [] - The following profiles are active: test
+2020-05-19 17:21:40.444 INFO  org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor Line:213 [] - No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2020-05-19 17:21:40.454 INFO  org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor Line:300 [] - No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+2020-05-19 17:21:40.460 INFO  org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor Line:460 [] - No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2020-05-19 17:21:40.599 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 [] - Bean 'org.springframework.retry.annotation.RetryConfiguration' of type [org.springframework.retry.annotation.RetryConfiguration$$EnhancerBySpringCGLIB$$62c8bd34] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-19 17:21:40.667 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 [] - Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-19 17:21:40.721 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 [] - Bean 'integrationChannelResolver' of type [org.springframework.integration.support.channel.BeanFactoryChannelResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-19 17:21:40.724 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 [] - Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-19 17:21:40.853 INFO  com.example.springboot_demo2.apisecurity.DecryptAutoConfiguration Line:55  [] - init System Decrypt
+2020-05-19 17:21:40.984 INFO  com.example.springboot_demo2.apisecurity.HmacAutoConfiguration Line:56  [] - init System hmacSha256 sign
+2020-05-19 17:21:42.294 INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Line:69  [] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-05-19 17:21:42.322 INFO  com.example.springboot_demo2.apisecurity.DecryptAutoConfiguration Line:42  [] - init decrypt filter
+2020-05-19 17:21:42.337 INFO  com.example.springboot_demo2.apisecurity.EncryptAutoConfiguration Line:42  [] - init encrypt filter
+2020-05-19 17:21:42.342 INFO  com.example.springboot_demo2.apisecurity.EncryptAutoConfiguration Line:56  [] - init System Encrypt
+2020-05-19 17:21:42.343 INFO  com.example.springboot_demo2.apisecurity.HmacAutoConfiguration Line:41  [] - init hmac filter
+2020-05-19 17:21:43.312 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:171 [] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-19 17:21:44.809 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Line:171 [] - Initializing ExecutorService 'taskScheduler'
+2020-05-19 17:21:44.931 INFO  org.springframework.integration.endpoint.EventDrivenConsumer Line:107 [] - Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2020-05-19 17:21:44.932 INFO  org.springframework.integration.channel.PublishSubscribeChannel Line:64  [] - Channel 'application.errorChannel' has 1 subscriber(s).
+2020-05-19 17:21:44.933 INFO  org.springframework.integration.endpoint.EventDrivenConsumer Line:159 [] - started bean '_org.springframework.integration.errorLogger'
+2020-05-19 17:21:44.933 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:160 [] - Context refreshed
+2020-05-19 17:21:44.952 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:163 [] - Found 1 custom documentation plugin(s)
+2020-05-19 17:21:44.992 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Line:41  [] - Scanning for api listing references
+2020-05-19 17:21:45.275 INFO  com.example.springboot_demo2.SmsServiceTest Line:61  [] - Started SmsServiceTest in 7.575 seconds (JVM running for 8.929)
+2020-05-19 17:21:45.317 ERROR org.springframework.test.context.TestContextManager Line:248 [] - Caught exception while allowing TestExecutionListener [org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@6572421] to prepare test instance [com.example.springboot_demo2.SmsServiceTest@73ca34e7]
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.example.springboot_demo2.SmsServiceTest': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'custom.env' in value "${custom.env}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:403)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1429)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:393)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:119)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:43)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:244)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'custom.env' in value "${custom.env}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:178)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:124)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:236)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:175)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:908)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1228)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:636)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:116)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:397)
+	... 26 common frames omitted
+2020-05-19 17:21:45.441 INFO  org.springframework.integration.endpoint.EventDrivenConsumer Line:107 [] - Removing {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2020-05-19 17:21:45.441 INFO  org.springframework.integration.channel.PublishSubscribeChannel Line:64  [] - Channel 'application.errorChannel' has 0 subscriber(s).
+2020-05-19 17:21:45.442 INFO  org.springframework.integration.endpoint.EventDrivenConsumer Line:193 [] - stopped bean '_org.springframework.integration.errorLogger'
+2020-05-19 17:21:45.442 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Line:208 [] - Shutting down ExecutorService 'taskScheduler'
+2020-05-19 17:21:45.445 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:208 [] - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-19 17:22:54.769 INFO  com.example.springboot_demo2.SmsServiceTest Line:55  [] - Starting SmsServiceTest on SC-201909071530 with PID 21372 (started by Administrator in D:\workspace\springboot_demo2)
+2020-05-19 17:22:54.771 INFO  com.example.springboot_demo2.SmsServiceTest Line:655 [] - The following profiles are active: test
+2020-05-19 17:22:56.183 INFO  org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor Line:213 [] - No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2020-05-19 17:22:56.197 INFO  org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor Line:300 [] - No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+2020-05-19 17:22:56.204 INFO  org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor Line:460 [] - No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2020-05-19 17:22:56.361 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 [] - Bean 'org.springframework.retry.annotation.RetryConfiguration' of type [org.springframework.retry.annotation.RetryConfiguration$$EnhancerBySpringCGLIB$$4dde998e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-19 17:22:56.395 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 [] - Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-19 17:22:56.456 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 [] - Bean 'integrationChannelResolver' of type [org.springframework.integration.support.channel.BeanFactoryChannelResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-19 17:22:56.460 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 [] - Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-19 17:22:56.569 INFO  com.example.springboot_demo2.apisecurity.DecryptAutoConfiguration Line:55  [] - init System Decrypt
+2020-05-19 17:22:56.595 INFO  com.example.springboot_demo2.apisecurity.HmacAutoConfiguration Line:56  [] - init System hmacSha256 sign
+2020-05-19 17:22:57.471 INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Line:69  [] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-05-19 17:22:57.497 INFO  com.example.springboot_demo2.apisecurity.DecryptAutoConfiguration Line:42  [] - init decrypt filter
+2020-05-19 17:22:57.512 INFO  com.example.springboot_demo2.apisecurity.EncryptAutoConfiguration Line:42  [] - init encrypt filter
+2020-05-19 17:22:57.514 INFO  com.example.springboot_demo2.apisecurity.EncryptAutoConfiguration Line:56  [] - init System Encrypt
+2020-05-19 17:22:57.515 INFO  com.example.springboot_demo2.apisecurity.HmacAutoConfiguration Line:41  [] - init hmac filter
+2020-05-19 17:22:58.194 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:171 [] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-19 17:22:58.806 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Line:171 [] - Initializing ExecutorService 'taskScheduler'
+2020-05-19 17:22:58.941 INFO  org.springframework.integration.endpoint.EventDrivenConsumer Line:107 [] - Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2020-05-19 17:22:58.942 INFO  org.springframework.integration.channel.PublishSubscribeChannel Line:64  [] - Channel 'application.errorChannel' has 1 subscriber(s).
+2020-05-19 17:22:58.942 INFO  org.springframework.integration.endpoint.EventDrivenConsumer Line:159 [] - started bean '_org.springframework.integration.errorLogger'
+2020-05-19 17:22:58.942 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:160 [] - Context refreshed
+2020-05-19 17:22:58.958 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:163 [] - Found 1 custom documentation plugin(s)
+2020-05-19 17:22:59.020 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Line:41  [] - Scanning for api listing references
+2020-05-19 17:22:59.291 INFO  com.example.springboot_demo2.SmsServiceTest Line:61  [] - Started SmsServiceTest in 5.36 seconds (JVM running for 6.698)
+2020-05-19 17:22:59.586 INFO  org.springframework.integration.endpoint.EventDrivenConsumer Line:107 [] - Removing {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2020-05-19 17:22:59.587 INFO  org.springframework.integration.channel.PublishSubscribeChannel Line:64  [] - Channel 'application.errorChannel' has 0 subscriber(s).
+2020-05-19 17:22:59.587 INFO  org.springframework.integration.endpoint.EventDrivenConsumer Line:193 [] - stopped bean '_org.springframework.integration.errorLogger'
+2020-05-19 17:22:59.589 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Line:208 [] - Shutting down ExecutorService 'taskScheduler'
+2020-05-19 17:22:59.590 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:208 [] - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-19 17:23:31.891 INFO  com.example.springboot_demo2.SmsServiceTest Line:55  [] - Starting SmsServiceTest on SC-201909071530 with PID 19288 (started by Administrator in D:\workspace\springboot_demo2)
+2020-05-19 17:23:31.893 INFO  com.example.springboot_demo2.SmsServiceTest Line:655 [] - The following profiles are active: test
+2020-05-19 17:23:34.153 INFO  org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor Line:213 [] - No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2020-05-19 17:23:34.161 INFO  org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor Line:300 [] - No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+2020-05-19 17:23:34.168 INFO  org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor Line:460 [] - No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2020-05-19 17:23:34.360 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 [] - Bean 'org.springframework.retry.annotation.RetryConfiguration' of type [org.springframework.retry.annotation.RetryConfiguration$$EnhancerBySpringCGLIB$$62c8bd34] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-19 17:23:34.538 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 [] - Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-19 17:23:34.576 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 [] - Bean 'integrationChannelResolver' of type [org.springframework.integration.support.channel.BeanFactoryChannelResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-19 17:23:34.581 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 [] - Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-19 17:23:34.808 INFO  com.example.springboot_demo2.apisecurity.DecryptAutoConfiguration Line:55  [] - init System Decrypt
+2020-05-19 17:23:34.850 INFO  com.example.springboot_demo2.apisecurity.HmacAutoConfiguration Line:56  [] - init System hmacSha256 sign
+2020-05-19 17:23:36.900 INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Line:69  [] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-05-19 17:23:36.953 INFO  com.example.springboot_demo2.apisecurity.DecryptAutoConfiguration Line:42  [] - init decrypt filter
+2020-05-19 17:23:36.971 INFO  com.example.springboot_demo2.apisecurity.EncryptAutoConfiguration Line:42  [] - init encrypt filter
+2020-05-19 17:23:36.974 INFO  com.example.springboot_demo2.apisecurity.EncryptAutoConfiguration Line:56  [] - init System Encrypt
+2020-05-19 17:23:36.975 INFO  com.example.springboot_demo2.apisecurity.HmacAutoConfiguration Line:41  [] - init hmac filter
+2020-05-19 17:23:44.146 INFO  com.example.springboot_demo2.SmsServiceTest Line:55  [] - Starting SmsServiceTest on SC-201909071530 with PID 10488 (started by Administrator in D:\workspace\springboot_demo2)
+2020-05-19 17:23:44.148 INFO  com.example.springboot_demo2.SmsServiceTest Line:655 [] - The following profiles are active: test
+2020-05-19 17:23:45.892 INFO  org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor Line:213 [] - No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2020-05-19 17:23:45.900 INFO  org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor Line:300 [] - No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+2020-05-19 17:23:45.907 INFO  org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor Line:460 [] - No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2020-05-19 17:23:46.051 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 [] - Bean 'org.springframework.retry.annotation.RetryConfiguration' of type [org.springframework.retry.annotation.RetryConfiguration$$EnhancerBySpringCGLIB$$bd264b16] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-19 17:23:46.082 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 [] - Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-19 17:23:46.157 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 [] - Bean 'integrationChannelResolver' of type [org.springframework.integration.support.channel.BeanFactoryChannelResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-19 17:23:46.178 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 [] - Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-19 17:23:46.295 INFO  com.example.springboot_demo2.apisecurity.DecryptAutoConfiguration Line:55  [] - init System Decrypt
+2020-05-19 17:23:46.324 INFO  com.example.springboot_demo2.apisecurity.HmacAutoConfiguration Line:56  [] - init System hmacSha256 sign
+2020-05-19 17:23:47.278 INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Line:69  [] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-05-19 17:23:47.315 INFO  com.example.springboot_demo2.apisecurity.DecryptAutoConfiguration Line:42  [] - init decrypt filter
+2020-05-19 17:23:47.341 INFO  com.example.springboot_demo2.apisecurity.EncryptAutoConfiguration Line:42  [] - init encrypt filter
+2020-05-19 17:23:47.345 INFO  com.example.springboot_demo2.apisecurity.EncryptAutoConfiguration Line:56  [] - init System Encrypt
+2020-05-19 17:23:47.346 INFO  com.example.springboot_demo2.apisecurity.HmacAutoConfiguration Line:41  [] - init hmac filter
+2020-05-19 17:23:48.056 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:171 [] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-19 17:23:48.744 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Line:171 [] - Initializing ExecutorService 'taskScheduler'
+2020-05-19 17:23:48.845 INFO  org.springframework.integration.endpoint.EventDrivenConsumer Line:107 [] - Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2020-05-19 17:23:48.846 INFO  org.springframework.integration.channel.PublishSubscribeChannel Line:64  [] - Channel 'application.errorChannel' has 1 subscriber(s).
+2020-05-19 17:23:48.846 INFO  org.springframework.integration.endpoint.EventDrivenConsumer Line:159 [] - started bean '_org.springframework.integration.errorLogger'
+2020-05-19 17:23:48.846 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:160 [] - Context refreshed
+2020-05-19 17:23:48.862 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:163 [] - Found 1 custom documentation plugin(s)
+2020-05-19 17:23:48.898 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Line:41  [] - Scanning for api listing references
+2020-05-19 17:23:49.164 INFO  com.example.springboot_demo2.SmsServiceTest Line:61  [] - Started SmsServiceTest in 5.901 seconds (JVM running for 7.139)
+2020-05-19 17:23:49.462 INFO  org.springframework.integration.endpoint.EventDrivenConsumer Line:107 [] - Removing {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2020-05-19 17:23:49.462 INFO  org.springframework.integration.channel.PublishSubscribeChannel Line:64  [] - Channel 'application.errorChannel' has 0 subscriber(s).
+2020-05-19 17:23:49.468 INFO  org.springframework.integration.endpoint.EventDrivenConsumer Line:193 [] - stopped bean '_org.springframework.integration.errorLogger'
+2020-05-19 17:23:49.469 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Line:208 [] - Shutting down ExecutorService 'taskScheduler'
+2020-05-19 17:23:49.473 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:208 [] - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-19 17:24:23.182 INFO  com.example.springboot_demo2.SmsServiceTest Line:55  [] - Starting SmsServiceTest on SC-201909071530 with PID 20644 (started by Administrator in D:\workspace\springboot_demo2)
+2020-05-19 17:24:23.194 INFO  com.example.springboot_demo2.SmsServiceTest Line:655 [] - The following profiles are active: test
+2020-05-19 17:24:25.024 INFO  org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor Line:213 [] - No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2020-05-19 17:24:25.033 INFO  org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor Line:300 [] - No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+2020-05-19 17:24:25.038 INFO  org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor Line:460 [] - No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2020-05-19 17:24:25.192 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 [] - Bean 'org.springframework.retry.annotation.RetryConfiguration' of type [org.springframework.retry.annotation.RetryConfiguration$$EnhancerBySpringCGLIB$$129a4217] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-19 17:24:25.218 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 [] - Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-19 17:24:25.263 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 [] - Bean 'integrationChannelResolver' of type [org.springframework.integration.support.channel.BeanFactoryChannelResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-19 17:24:25.270 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 [] - Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-19 17:24:25.404 INFO  com.example.springboot_demo2.apisecurity.DecryptAutoConfiguration Line:55  [] - init System Decrypt
+2020-05-19 17:24:25.446 INFO  com.example.springboot_demo2.apisecurity.HmacAutoConfiguration Line:56  [] - init System hmacSha256 sign
+2020-05-19 17:24:26.393 INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Line:69  [] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-05-19 17:24:26.425 INFO  com.example.springboot_demo2.apisecurity.DecryptAutoConfiguration Line:42  [] - init decrypt filter
+2020-05-19 17:24:26.443 INFO  com.example.springboot_demo2.apisecurity.EncryptAutoConfiguration Line:42  [] - init encrypt filter
+2020-05-19 17:24:26.445 INFO  com.example.springboot_demo2.apisecurity.EncryptAutoConfiguration Line:56  [] - init System Encrypt
+2020-05-19 17:24:26.446 INFO  com.example.springboot_demo2.apisecurity.HmacAutoConfiguration Line:41  [] - init hmac filter
+2020-05-19 17:24:27.119 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:171 [] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-19 17:24:27.806 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Line:171 [] - Initializing ExecutorService 'taskScheduler'
+2020-05-19 17:24:27.899 INFO  org.springframework.integration.endpoint.EventDrivenConsumer Line:107 [] - Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2020-05-19 17:24:27.900 INFO  org.springframework.integration.channel.PublishSubscribeChannel Line:64  [] - Channel 'application.errorChannel' has 1 subscriber(s).
+2020-05-19 17:24:27.900 INFO  org.springframework.integration.endpoint.EventDrivenConsumer Line:159 [] - started bean '_org.springframework.integration.errorLogger'
+2020-05-19 17:24:27.900 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:160 [] - Context refreshed
+2020-05-19 17:24:27.921 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:163 [] - Found 1 custom documentation plugin(s)
+2020-05-19 17:24:27.977 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Line:41  [] - Scanning for api listing references
+2020-05-19 17:24:28.273 INFO  com.example.springboot_demo2.SmsServiceTest Line:61  [] - Started SmsServiceTest in 6.195 seconds (JVM running for 7.316)
+2020-05-19 17:24:28.350 ERROR org.springframework.test.context.TestContextManager Line:248 [] - Caught exception while allowing TestExecutionListener [org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@52bf72b5] to prepare test instance [com.example.springboot_demo2.SmsServiceTest@5ed5b321]
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.example.springboot_demo2.SmsServiceTest': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'custom.env' in value "${custom.env}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:403)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1429)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:393)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:119)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:43)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:244)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'custom.env' in value "${custom.env}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:178)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:124)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:236)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:175)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:908)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1228)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:636)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:116)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:397)
+	... 26 common frames omitted
+2020-05-19 17:24:28.401 INFO  org.springframework.integration.endpoint.EventDrivenConsumer Line:107 [] - Removing {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2020-05-19 17:24:28.401 INFO  org.springframework.integration.channel.PublishSubscribeChannel Line:64  [] - Channel 'application.errorChannel' has 0 subscriber(s).
+2020-05-19 17:24:28.402 INFO  org.springframework.integration.endpoint.EventDrivenConsumer Line:193 [] - stopped bean '_org.springframework.integration.errorLogger'
+2020-05-19 17:24:28.402 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Line:208 [] - Shutting down ExecutorService 'taskScheduler'
+2020-05-19 17:24:28.426 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:208 [] - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-19 17:25:14.241 INFO  com.example.springboot_demo2.SmsServiceTest Line:55  [] - Starting SmsServiceTest on SC-201909071530 with PID 19772 (started by Administrator in D:\workspace\springboot_demo2)
+2020-05-19 17:25:14.242 INFO  com.example.springboot_demo2.SmsServiceTest Line:655 [] - The following profiles are active: test
+2020-05-19 17:25:15.882 INFO  org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor Line:213 [] - No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2020-05-19 17:25:15.892 INFO  org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor Line:300 [] - No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+2020-05-19 17:25:15.898 INFO  org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor Line:460 [] - No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2020-05-19 17:25:16.052 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 [] - Bean 'org.springframework.retry.annotation.RetryConfiguration' of type [org.springframework.retry.annotation.RetryConfiguration$$EnhancerBySpringCGLIB$$4dde998e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-19 17:25:16.082 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 [] - Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-19 17:25:16.122 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 [] - Bean 'integrationChannelResolver' of type [org.springframework.integration.support.channel.BeanFactoryChannelResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-19 17:25:16.146 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 [] - Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-19 17:25:16.260 INFO  com.example.springboot_demo2.apisecurity.DecryptAutoConfiguration Line:55  [] - init System Decrypt
+2020-05-19 17:25:16.304 INFO  com.example.springboot_demo2.apisecurity.HmacAutoConfiguration Line:56  [] - init System hmacSha256 sign
+2020-05-19 17:25:17.637 INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Line:69  [] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-05-19 17:25:17.664 INFO  com.example.springboot_demo2.apisecurity.DecryptAutoConfiguration Line:42  [] - init decrypt filter
+2020-05-19 17:25:17.677 INFO  com.example.springboot_demo2.apisecurity.EncryptAutoConfiguration Line:42  [] - init encrypt filter
+2020-05-19 17:25:17.680 INFO  com.example.springboot_demo2.apisecurity.EncryptAutoConfiguration Line:56  [] - init System Encrypt
+2020-05-19 17:25:17.681 INFO  com.example.springboot_demo2.apisecurity.HmacAutoConfiguration Line:41  [] - init hmac filter
+2020-05-19 17:25:18.489 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:171 [] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-19 17:25:19.133 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Line:171 [] - Initializing ExecutorService 'taskScheduler'
+2020-05-19 17:25:19.289 INFO  org.springframework.integration.endpoint.EventDrivenConsumer Line:107 [] - Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2020-05-19 17:25:19.290 INFO  org.springframework.integration.channel.PublishSubscribeChannel Line:64  [] - Channel 'application.errorChannel' has 1 subscriber(s).
+2020-05-19 17:25:19.291 INFO  org.springframework.integration.endpoint.EventDrivenConsumer Line:159 [] - started bean '_org.springframework.integration.errorLogger'
+2020-05-19 17:25:19.291 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:160 [] - Context refreshed
+2020-05-19 17:25:19.314 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:163 [] - Found 1 custom documentation plugin(s)
+2020-05-19 17:25:19.461 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Line:41  [] - Scanning for api listing references
+2020-05-19 17:25:20.128 INFO  com.example.springboot_demo2.SmsServiceTest Line:61  [] - Started SmsServiceTest in 6.795 seconds (JVM running for 8.145)
+2020-05-19 17:25:20.561 INFO  org.springframework.integration.endpoint.EventDrivenConsumer Line:107 [] - Removing {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2020-05-19 17:25:20.562 INFO  org.springframework.integration.channel.PublishSubscribeChannel Line:64  [] - Channel 'application.errorChannel' has 0 subscriber(s).
+2020-05-19 17:25:20.563 INFO  org.springframework.integration.endpoint.EventDrivenConsumer Line:193 [] - stopped bean '_org.springframework.integration.errorLogger'
+2020-05-19 17:25:20.563 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Line:208 [] - Shutting down ExecutorService 'taskScheduler'
+2020-05-19 17:25:20.567 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:208 [] - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-19 17:25:44.575 INFO  com.example.springboot_demo2.SmsServiceTest Line:55  [] - Starting SmsServiceTest on SC-201909071530 with PID 12488 (started by Administrator in D:\workspace\springboot_demo2)
+2020-05-19 17:25:44.577 INFO  com.example.springboot_demo2.SmsServiceTest Line:655 [] - The following profiles are active: dev
+2020-05-19 17:25:46.054 INFO  org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor Line:213 [] - No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2020-05-19 17:25:46.062 INFO  org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor Line:300 [] - No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+2020-05-19 17:25:46.067 INFO  org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor Line:460 [] - No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2020-05-19 17:25:46.188 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 [] - Bean 'org.springframework.retry.annotation.RetryConfiguration' of type [org.springframework.retry.annotation.RetryConfiguration$$EnhancerBySpringCGLIB$$6eea79cd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-19 17:25:46.218 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 [] - Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-19 17:25:46.244 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 [] - Bean 'integrationChannelResolver' of type [org.springframework.integration.support.channel.BeanFactoryChannelResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-19 17:25:46.249 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 [] - Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-19 17:25:46.379 INFO  com.example.springboot_demo2.apisecurity.DecryptAutoConfiguration Line:55  [] - init System Decrypt
+2020-05-19 17:25:46.408 INFO  com.example.springboot_demo2.apisecurity.HmacAutoConfiguration Line:56  [] - init System hmacSha256 sign
+2020-05-19 17:25:47.434 INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Line:69  [] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-05-19 17:25:47.495 INFO  com.example.springboot_demo2.apisecurity.DecryptAutoConfiguration Line:42  [] - init decrypt filter
+2020-05-19 17:25:47.525 INFO  com.example.springboot_demo2.apisecurity.EncryptAutoConfiguration Line:42  [] - init encrypt filter
+2020-05-19 17:25:47.528 INFO  com.example.springboot_demo2.apisecurity.EncryptAutoConfiguration Line:56  [] - init System Encrypt
+2020-05-19 17:25:47.540 INFO  com.example.springboot_demo2.apisecurity.HmacAutoConfiguration Line:41  [] - init hmac filter
+2020-05-19 17:25:48.437 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:171 [] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-19 17:25:49.043 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Line:171 [] - Initializing ExecutorService 'taskScheduler'
+2020-05-19 17:25:49.134 INFO  org.springframework.integration.endpoint.EventDrivenConsumer Line:107 [] - Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2020-05-19 17:25:49.134 INFO  org.springframework.integration.channel.PublishSubscribeChannel Line:64  [] - Channel 'application.errorChannel' has 1 subscriber(s).
+2020-05-19 17:25:49.136 INFO  org.springframework.integration.endpoint.EventDrivenConsumer Line:159 [] - started bean '_org.springframework.integration.errorLogger'
+2020-05-19 17:25:49.137 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:160 [] - Context refreshed
+2020-05-19 17:25:49.152 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:163 [] - Found 1 custom documentation plugin(s)
+2020-05-19 17:25:49.193 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Line:41  [] - Scanning for api listing references
+2020-05-19 17:25:49.473 INFO  com.example.springboot_demo2.SmsServiceTest Line:61  [] - Started SmsServiceTest in 6.035 seconds (JVM running for 7.311)
+2020-05-19 17:25:49.833 INFO  org.springframework.integration.endpoint.EventDrivenConsumer Line:107 [] - Removing {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2020-05-19 17:25:49.834 INFO  org.springframework.integration.channel.PublishSubscribeChannel Line:64  [] - Channel 'application.errorChannel' has 0 subscriber(s).
+2020-05-19 17:25:49.834 INFO  org.springframework.integration.endpoint.EventDrivenConsumer Line:193 [] - stopped bean '_org.springframework.integration.errorLogger'
+2020-05-19 17:25:49.835 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Line:208 [] - Shutting down ExecutorService 'taskScheduler'
+2020-05-19 17:25:49.837 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:208 [] - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-19 17:27:09.988 INFO  com.example.springboot_demo2.SmsServiceTest Line:55  [] - Starting SmsServiceTest on SC-201909071530 with PID 2748 (started by Administrator in D:\workspace\springboot_demo2)
+2020-05-19 17:27:09.990 INFO  com.example.springboot_demo2.SmsServiceTest Line:655 [] - The following profiles are active: test
+2020-05-19 17:27:11.334 INFO  org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor Line:213 [] - No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2020-05-19 17:27:11.343 INFO  org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor Line:300 [] - No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+2020-05-19 17:27:11.348 INFO  org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor Line:460 [] - No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2020-05-19 17:27:11.482 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 [] - Bean 'org.springframework.retry.annotation.RetryConfiguration' of type [org.springframework.retry.annotation.RetryConfiguration$$EnhancerBySpringCGLIB$$b8fdeac1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-19 17:27:11.513 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 [] - Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-19 17:27:11.544 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 [] - Bean 'integrationChannelResolver' of type [org.springframework.integration.support.channel.BeanFactoryChannelResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-19 17:27:11.548 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 [] - Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-19 17:27:11.667 INFO  com.example.springboot_demo2.apisecurity.DecryptAutoConfiguration Line:55  [] - init System Decrypt
+2020-05-19 17:27:11.697 INFO  com.example.springboot_demo2.apisecurity.HmacAutoConfiguration Line:56  [] - init System hmacSha256 sign
+2020-05-19 17:27:12.549 INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Line:69  [] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-05-19 17:27:12.572 INFO  com.example.springboot_demo2.apisecurity.DecryptAutoConfiguration Line:42  [] - init decrypt filter
+2020-05-19 17:27:12.584 INFO  com.example.springboot_demo2.apisecurity.EncryptAutoConfiguration Line:42  [] - init encrypt filter
+2020-05-19 17:27:12.587 INFO  com.example.springboot_demo2.apisecurity.EncryptAutoConfiguration Line:56  [] - init System Encrypt
+2020-05-19 17:27:12.588 INFO  com.example.springboot_demo2.apisecurity.HmacAutoConfiguration Line:41  [] - init hmac filter
+2020-05-19 17:27:13.182 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:171 [] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-19 17:27:14.160 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Line:171 [] - Initializing ExecutorService 'taskScheduler'
+2020-05-19 17:27:14.246 INFO  org.springframework.integration.endpoint.EventDrivenConsumer Line:107 [] - Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2020-05-19 17:27:14.247 INFO  org.springframework.integration.channel.PublishSubscribeChannel Line:64  [] - Channel 'application.errorChannel' has 1 subscriber(s).
+2020-05-19 17:27:14.247 INFO  org.springframework.integration.endpoint.EventDrivenConsumer Line:159 [] - started bean '_org.springframework.integration.errorLogger'
+2020-05-19 17:27:14.247 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:160 [] - Context refreshed
+2020-05-19 17:27:14.263 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:163 [] - Found 1 custom documentation plugin(s)
+2020-05-19 17:27:14.299 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Line:41  [] - Scanning for api listing references
+2020-05-19 17:27:14.571 INFO  com.example.springboot_demo2.SmsServiceTest Line:61  [] - Started SmsServiceTest in 5.273 seconds (JVM running for 6.318)
+2020-05-19 17:27:14.610 ERROR org.springframework.test.context.TestContextManager Line:248 [] - Caught exception while allowing TestExecutionListener [org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@16d04d3d] to prepare test instance [com.example.springboot_demo2.SmsServiceTest@1cb9ef52]
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.example.springboot_demo2.SmsServiceTest': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'custom.env' in value "${custom.env}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:403)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1429)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:393)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:119)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:43)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:244)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'custom.env' in value "${custom.env}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:178)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:124)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:236)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:175)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:908)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1228)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:636)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:116)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:397)
+	... 26 common frames omitted
+2020-05-19 17:27:14.627 INFO  org.springframework.integration.endpoint.EventDrivenConsumer Line:107 [] - Removing {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2020-05-19 17:27:14.628 INFO  org.springframework.integration.channel.PublishSubscribeChannel Line:64  [] - Channel 'application.errorChannel' has 0 subscriber(s).
+2020-05-19 17:27:14.628 INFO  org.springframework.integration.endpoint.EventDrivenConsumer Line:193 [] - stopped bean '_org.springframework.integration.errorLogger'
+2020-05-19 17:27:14.629 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Line:208 [] - Shutting down ExecutorService 'taskScheduler'
+2020-05-19 17:27:14.632 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:208 [] - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-19 17:27:34.548 INFO  com.example.springboot_demo2.SmsServiceTest Line:55  [] - Starting SmsServiceTest on SC-201909071530 with PID 12624 (started by Administrator in D:\workspace\springboot_demo2)
+2020-05-19 17:27:34.549 INFO  com.example.springboot_demo2.SmsServiceTest Line:655 [] - The following profiles are active: test
+2020-05-19 17:27:36.248 INFO  org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor Line:213 [] - No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2020-05-19 17:27:36.256 INFO  org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor Line:300 [] - No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+2020-05-19 17:27:36.262 INFO  org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor Line:460 [] - No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2020-05-19 17:27:36.404 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 [] - Bean 'org.springframework.retry.annotation.RetryConfiguration' of type [org.springframework.retry.annotation.RetryConfiguration$$EnhancerBySpringCGLIB$$455c0839] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-19 17:27:36.460 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 [] - Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-19 17:27:36.495 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 [] - Bean 'integrationChannelResolver' of type [org.springframework.integration.support.channel.BeanFactoryChannelResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-19 17:27:36.506 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 [] - Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-19 17:27:36.616 INFO  com.example.springboot_demo2.apisecurity.DecryptAutoConfiguration Line:55  [] - init System Decrypt
+2020-05-19 17:27:36.643 INFO  com.example.springboot_demo2.apisecurity.HmacAutoConfiguration Line:56  [] - init System hmacSha256 sign
+2020-05-19 17:27:37.569 INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Line:69  [] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-05-19 17:27:37.594 INFO  com.example.springboot_demo2.apisecurity.DecryptAutoConfiguration Line:42  [] - init decrypt filter
+2020-05-19 17:27:37.605 INFO  com.example.springboot_demo2.apisecurity.EncryptAutoConfiguration Line:42  [] - init encrypt filter
+2020-05-19 17:27:37.609 INFO  com.example.springboot_demo2.apisecurity.EncryptAutoConfiguration Line:56  [] - init System Encrypt
+2020-05-19 17:27:37.610 INFO  com.example.springboot_demo2.apisecurity.HmacAutoConfiguration Line:41  [] - init hmac filter
+2020-05-19 17:27:38.456 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:171 [] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-19 17:27:39.388 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Line:171 [] - Initializing ExecutorService 'taskScheduler'
+2020-05-19 17:27:39.503 INFO  org.springframework.integration.endpoint.EventDrivenConsumer Line:107 [] - Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2020-05-19 17:27:39.504 INFO  org.springframework.integration.channel.PublishSubscribeChannel Line:64  [] - Channel 'application.errorChannel' has 1 subscriber(s).
+2020-05-19 17:27:39.504 INFO  org.springframework.integration.endpoint.EventDrivenConsumer Line:159 [] - started bean '_org.springframework.integration.errorLogger'
+2020-05-19 17:27:39.504 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:160 [] - Context refreshed
+2020-05-19 17:27:39.519 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:163 [] - Found 1 custom documentation plugin(s)
+2020-05-19 17:27:39.586 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Line:41  [] - Scanning for api listing references
+2020-05-19 17:27:39.946 INFO  com.example.springboot_demo2.SmsServiceTest Line:61  [] - Started SmsServiceTest in 6.122 seconds (JVM running for 7.157)
+2020-05-19 17:27:40.249 INFO  org.springframework.integration.endpoint.EventDrivenConsumer Line:107 [] - Removing {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2020-05-19 17:27:40.250 INFO  org.springframework.integration.channel.PublishSubscribeChannel Line:64  [] - Channel 'application.errorChannel' has 0 subscriber(s).
+2020-05-19 17:27:40.250 INFO  org.springframework.integration.endpoint.EventDrivenConsumer Line:193 [] - stopped bean '_org.springframework.integration.errorLogger'
+2020-05-19 17:27:40.251 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Line:208 [] - Shutting down ExecutorService 'taskScheduler'

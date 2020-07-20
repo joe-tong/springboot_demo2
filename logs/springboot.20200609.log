@@ -1,0 +1,41 @@
+2020-06-09 09:36:23.126 INFO  com.example.springboot_demo2.SpringbootDemo2Application Line:55  [] - Starting SpringbootDemo2Application on SC-201909071530 with PID 21864 (D:\workspace\springboot_demo2\target\classes started by Administrator in D:\workspace\springboot_demo2)
+2020-06-09 09:36:23.130 INFO  com.example.springboot_demo2.SpringbootDemo2Application Line:655 [] - The following profiles are active: test
+2020-06-09 09:36:25.122 INFO  org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor Line:213 [] - No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2020-06-09 09:36:25.185 INFO  org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor Line:300 [] - No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+2020-06-09 09:36:25.189 INFO  org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor Line:460 [] - No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2020-06-09 09:36:25.333 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 [] - Bean 'org.springframework.retry.annotation.RetryConfiguration' of type [org.springframework.retry.annotation.RetryConfiguration$$EnhancerBySpringCGLIB$$1fc688d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-09 09:36:25.352 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 [] - Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-09 09:36:25.372 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 [] - Bean 'integrationChannelResolver' of type [org.springframework.integration.support.channel.BeanFactoryChannelResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-09 09:36:25.373 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 [] - Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-09 09:36:25.755 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:92  [] - Tomcat initialized with port(s): 8080 (https) 8443 (http)
+2020-06-09 09:36:25.768 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 [] - Initializing ProtocolHandler ["https-jsse-nio-8080"]
+2020-06-09 09:36:25.768 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 [] - Initializing ProtocolHandler ["http-nio-8443"]
+2020-06-09 09:36:25.784 INFO  org.apache.catalina.core.StandardService Line:173 [] - Starting service [Tomcat]
+2020-06-09 09:36:25.784 INFO  org.apache.catalina.core.StandardEngine Line:173 [] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-06-09 09:36:25.905 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 [] - Initializing Spring embedded WebApplicationContext
+2020-06-09 09:36:25.905 INFO  org.springframework.web.context.ContextLoader Line:284 [] - Root WebApplicationContext: initialization completed in 2690 ms
+2020-06-09 09:36:25.918 INFO  com.example.springboot_demo2.apisecurity.DecryptAutoConfiguration Line:55  [] - init System Decrypt
+2020-06-09 09:36:25.922 INFO  com.example.springboot_demo2.apisecurity.DecryptAutoConfiguration Line:42  [] - init decrypt filter
+2020-06-09 09:36:25.929 INFO  com.example.springboot_demo2.apisecurity.EncryptAutoConfiguration Line:42  [] - init encrypt filter
+2020-06-09 09:36:25.934 INFO  com.example.springboot_demo2.apisecurity.HmacAutoConfiguration Line:56  [] - init System hmacSha256 sign
+2020-06-09 09:36:25.938 INFO  com.example.springboot_demo2.apisecurity.HmacAutoConfiguration Line:41  [] - init hmac filter
+2020-06-09 09:36:26.395 INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Line:69  [] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-06-09 09:36:26.410 INFO  com.example.springboot_demo2.apisecurity.EncryptAutoConfiguration Line:56  [] - init System Encrypt
+2020-06-09 09:36:26.411 INFO  com.example.springboot_demo2.bean_init.DemoBean Line:17  [] - --> instantiate 
+2020-06-09 09:36:26.412 INFO  com.example.springboot_demo2.bean_init.DemoBeanPostProcessor Line:19  [] - --> BeanPostProcessor.postProcessBeforeInitialization 
+2020-06-09 09:36:26.412 INFO  com.example.springboot_demo2.bean_init.DemoBean Line:22  [] - --> @PostConstruct 
+2020-06-09 09:36:26.412 INFO  com.example.springboot_demo2.bean_init.DemoBean Line:27  [] - --> InitializingBean.afterPropertiesSet 
+2020-06-09 09:36:26.412 INFO  com.example.springboot_demo2.bean_init.DemoBean Line:31  [] - --> custom initMehotd
+2020-06-09 09:36:26.412 INFO  com.example.springboot_demo2.bean_init.DemoBeanPostProcessor Line:27  [] - --> BeanPostProcessor.postProcessAfterInitialization 
+2020-06-09 09:36:26.555 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:171 [] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-09 09:36:26.803 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Line:171 [] - Initializing ExecutorService 'taskScheduler'
+2020-06-09 09:36:26.851 INFO  org.springframework.integration.endpoint.EventDrivenConsumer Line:107 [] - Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2020-06-09 09:36:26.851 INFO  org.springframework.integration.channel.PublishSubscribeChannel Line:64  [] - Channel 'application.errorChannel' has 1 subscriber(s).
+2020-06-09 09:36:26.851 INFO  org.springframework.integration.endpoint.EventDrivenConsumer Line:159 [] - started bean '_org.springframework.integration.errorLogger'
+2020-06-09 09:36:26.851 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:160 [] - Context refreshed
+2020-06-09 09:36:26.862 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:163 [] - Found 1 custom documentation plugin(s)
+2020-06-09 09:36:26.901 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Line:41  [] - Scanning for api listing references
+2020-06-09 09:36:27.069 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 [] - Starting ProtocolHandler ["https-jsse-nio-8080"]
+2020-06-09 09:36:27.256 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 [] - Starting ProtocolHandler ["http-nio-8443"]
+2020-06-09 09:36:27.262 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:204 [] - Tomcat started on port(s): 8080 (https) 8443 (http) with context path ''
+2020-06-09 09:36:27.265 INFO  com.example.springboot_demo2.SpringbootDemo2Application Line:61  [] - Started SpringbootDemo2Application in 4.94 seconds (JVM running for 6.327)
