@@ -15,11 +15,11 @@
     <description>Demo project for Spring Boot</description>
 
     <distributionManagement>
-        <repository>
-            <!--此名称要和.m2/settings.xml中设置的ID一致 -->
-            <id>springboot_demo</id>
-            <url>http://192.168.0.153:8081/repository/mayikt-releases/</url>
-        </repository>
+<!--        <repository>-->
+<!--            &lt;!&ndash;此名称要和.m2/settings.xml中设置的ID一致 &ndash;&gt;-->
+<!--            <id>springboot_demo</id>-->
+<!--            <url>http://192.168.0.153:8081/repository/mayikt-releases/</url>-->
+<!--        </repository>-->
     </distributionManagement>
 
     <properties>
