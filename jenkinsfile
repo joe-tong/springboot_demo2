@@ -26,7 +26,7 @@ node {
                                 makeEmptyDirs: false,
                                 noDefaultExcludes: false,
                                 patternSeparator: '[, ]+',
-                                remoteDirectory: '/usr/local/jenkins/workspace',
+                                remoteDirectory: '',
                                 remoteDirectorySDF: false,
                                 removePrefix: '',
                                 sourceFiles: 'target/springboot_demo*.jar')],
