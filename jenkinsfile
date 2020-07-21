@@ -26,10 +26,10 @@ node {
                                 makeEmptyDirs: false,
                                 noDefaultExcludes: false,
                                 patternSeparator: '[, ]+',
-                                remoteDirectory: '',
+                                remoteDirectory: '/usr/local/jenkins/workspace',
                                 remoteDirectorySDF: false,
                                 removePrefix: '',
-                                sourceFiles: '**/bnb-system-*.jar')],
+                                sourceFiles: 'target/springboot_demo*.jar')],
                         usePromotionTimestamp: false,
                         useWorkspaceInPromotion: false,
                         verbose: false)
