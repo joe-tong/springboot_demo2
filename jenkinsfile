@@ -1,0 +1,40 @@
+node {
+    environment {
+        JENKINS_WORKSPACE = "/var/jenkins_mount/workspace"    //jenkins存放文件的地址
+        PROJECT_NAME = "${JOB_NAME}"                      // 项目名
+        JAR_NAME = "bnb-system-*-beta.jar"   // 项目生成的jar的名字
+        VERSION_ID = "${BUILD_ID}"
+    }
+    stage('拉取代码') {
+        echo 'this is pull code step'
+        checkout scm
+    }
+
+    stage('编译打包') {
+        echo 'this is build step'
+        sh 'mvn clean package -Dmaven.test.skip=true'
+    }
+    stage('推送') {
+        echo 'transfer file to target server'
+        def DEBUG_PORT = "$debug_port"
+        sshPublisher(publishers: [
+                sshPublisherDesc(configName: '本地', transfers: [
+                        sshTransfer(cleanRemote: false, excludes: '',
+                                execCommand:'',
+                                execTimeout: 120000,
+                                flatten: false,
+                                makeEmptyDirs: false,
+                                noDefaultExcludes: false,
+                                patternSeparator: '[, ]+',
+                                remoteDirectory: '',
+                                remoteDirectorySDF: false,
+                                removePrefix: '',
+                                sourceFiles: '**/bnb-system-*.jar')],
+                        usePromotionTimestamp: false,
+                        useWorkspaceInPromotion: false,
+                        verbose: false)
+        ])
+
+        println "==========结束==========="
+    }
+}
