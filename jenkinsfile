@@ -16,7 +16,7 @@ node {
     }
     stage('推送') {
         echo 'transfer file to target server'
-        def DEBUG_PORT = "$debug_port"
+
         sshPublisher(publishers: [
                 sshPublisherDesc(configName: '本地', transfers: [
                         sshTransfer(cleanRemote: false, excludes: '',
