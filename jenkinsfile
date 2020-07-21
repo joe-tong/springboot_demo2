@@ -12,7 +12,7 @@ node {
 
     stage('编译打包') {
         echo 'this is build step'
-        sh 'mvn clean package -Dmaven.test.skip=true'
+        sh '/usr/local/apache-maven-3.6.3/bin clean package -Dmaven.test.skip=true'
     }
     stage('推送') {
         echo 'transfer file to target server'
