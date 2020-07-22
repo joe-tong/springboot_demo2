@@ -23,7 +23,7 @@ node {
                                 execCommand:'''
                                     #!/bin/bash
                                     cd /usr/local/jenkins/workspace/target
-                                    jarname=`ls -t | grep bnb-system | grep -v \'sources\'| awk \'{print $1}\'|head -n 1`
+                                    jarname=`ls -t | grep springboot*.jar | grep -v 'sources'| awk '{print $1}'|head -n 1`
 
                                     mv /usr/local/jenkins/workspace/target/${jarname} /usr/local/jenkins/workspace/${jarname}
 
