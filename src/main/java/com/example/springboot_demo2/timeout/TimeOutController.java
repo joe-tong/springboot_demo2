@@ -83,4 +83,9 @@ public class TimeOutController {
             this.msg = msg;
         }
     }
+
+    @GetMapping("/dev")
+    public String testDev(){
+        return "12";
+    }
 }
