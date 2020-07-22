@@ -23,8 +23,9 @@ node {
                                 execCommand:'''
                                     #!/bin/bash
                                     cd /usr/local/jenkins/workspace/target
-                                    mv springboot*.jar ../springboot.jar
-                                    jarname=`ls -t | grep springboot* | grep -v \'sources\'| awk \'{print $1}\'|head -n 1`
+                                    jarname=`ls -t | grep bnb-system | grep -v \'sources\'| awk \'{print $1}\'|head -n 1`
+
+                                    mv /usr/local/jenkins/workspace/target/${jarname} ../${jarname}
 
                                     kill_id=`netstat -tunlp|grep 8443|awk \'{print $7}\'|awk -F \'/\' \'{print $1}\'`
 
@@ -43,7 +44,7 @@ node {
                                     sleep 1s
                                     echo "==============应用启动 --> ${jarname} =============="
                                     source /etc/profile
-                                    nohup java -jar -Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=${DEBUG_PORT} /usr/local/jenkins/workspace/springboot.jar  --spring.profiles.active=dev  >> /usr/local/jenkins/workspace/springboot.log &
+                                    nohup java -jar  /usr/local/jenkins/workspace/${jarname}  --spring.profiles.active=dev  >> /usr/local/jenkins/workspace/springboot.log &
 
                                     sleep 1s
                                     tail -f /usr/local/jenkins/workspace/springboot.log
