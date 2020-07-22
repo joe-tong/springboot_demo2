@@ -29,7 +29,7 @@ node {
                                 remoteDirectory: '',
                                 remoteDirectorySDF: false,
                                 removePrefix: 'target',
-                                sourceFiles: 'target/springboot_demo*.jar')],
+                                sourceFiles: '**/springboot_demo*.jar')],
                         usePromotionTimestamp: false,
                         useWorkspaceInPromotion: false,
                         verbose: false)
