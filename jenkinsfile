@@ -22,7 +22,7 @@ node {
                         sshTransfer(cleanRemote: false, excludes: '',
                                 execCommand:'''
                                     #!/bin/bash
-                                    cd /var/jenkins/workspace/target
+                                    cd /usr/jenkins/workspace/target
                                     jarname=`ls -t | grep springboot* | grep -v \'sources\'| awk \'{print $1}\'|head -n 1`
 
                                     kill_id=`netstat -tunlp|grep 8443|awk \'{print $7}\'|awk -F \'/\' \'{print $1}\'`
@@ -42,7 +42,7 @@ node {
                                     sleep 1s
                                     echo "==============应用启动 --> ${jarname} =============="
                                     source /etc/profile
-                                    nohup java -jar -Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=${DEBUG_PORT} /usr/jenkins/workspace/${jarname}  --spring.profiles.active=dev  >> /usr/jenkins/workspace/springboot.log &
+                                    nohup java -jar -Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=${DEBUG_PORT} /usr/jenkins/workspace/target/${jarname}  --spring.profiles.active=dev  >> /usr/jenkins/workspace/target/springboot.log &
 
                                     sleep 1s
                                     tail -f /usr/jenkins/workspace/target/springboot.log
