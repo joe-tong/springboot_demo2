@@ -22,7 +22,7 @@ node {
                         sshTransfer(cleanRemote: false, excludes: '',
                                 execCommand:'
                                 #!/bin/bash
-                                cd /var/jenkins/workspace/
+                                cd /var/jenkins/workspace/target
                                 jarname=`ls -t | grep springboot* | grep -v \'sources\'| awk \'{print $1}\'|head -n 1`
 
                                 kill_id=`netstat -tunlp|grep 8443|awk \'{print $7}\'|awk -F \'/\' \'{print $1}\'`
