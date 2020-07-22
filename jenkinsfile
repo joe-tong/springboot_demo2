@@ -28,7 +28,7 @@ node {
                                 patternSeparator: '[, ]+',
                                 remoteDirectory: '',
                                 remoteDirectorySDF: false,
-                                removePrefix: 'target',
+                                removePrefix: '',
                                 sourceFiles: '**/springboot_demo*.jar')],
                         usePromotionTimestamp: false,
                         useWorkspaceInPromotion: false,
