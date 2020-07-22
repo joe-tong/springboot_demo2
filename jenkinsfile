@@ -5,9 +5,12 @@ node {
         JAR_NAME = "bnb-system-*-beta.jar"   // 项目生成的jar的名字
         VERSION_ID = "${BUILD_ID}"
     }
+    parameters {
+        gitParameter branchFilter: 'origin/(.*)', defaultValue: 'master', name: 'BRANCH', type: 'PT_BRANCH'
+      }
     stage('拉取代码') {
         echo 'this is pull code step'
-        checkout scm
+        git branch: "${params.BRANCH}", url: 'https://github.com/joe-tong/springboot_demo2.git'
     }
 
     stage('编译打包') {
