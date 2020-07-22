@@ -2,14 +2,7 @@ spring:
   profiles:
     active: test
 
-##\u4F60\u751F\u6210\u7684\u8BC1\u4E66\u540D\u5B57
-server:
-  ssl:
-    key-store: tomcat.keystore
-#\u5BC6\u94A5\u5E93\u5BC6\u7801
-    key-store-password: 123456
-    keyStoreType: JKS
-    keyAlias: tomcat
+
 
 http:
   port: 8443
