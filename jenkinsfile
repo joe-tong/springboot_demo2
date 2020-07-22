@@ -28,8 +28,8 @@ node {
                                 patternSeparator: '[, ]+',
                                 remoteDirectory: '',
                                 remoteDirectorySDF: false,
-                                removePrefix: '',
-                                sourceFiles: '**/springboot_demo*.jar')],
+                                removePrefix: 'target',
+                                sourceFiles: 'springboot_demo*.jar')],
                         usePromotionTimestamp: false,
                         useWorkspaceInPromotion: false,
                         verbose: false)
