@@ -25,7 +25,7 @@ node {
                                     cd /usr/local/jenkins/workspace/target
                                     jarname=`ls -t | grep bnb-system | grep -v \'sources\'| awk \'{print $1}\'|head -n 1`
 
-                                    mv /usr/local/jenkins/workspace/target/${jarname} ../${jarname}
+                                    mv /usr/local/jenkins/workspace/target/${jarname} /usr/local/jenkins/workspace/${jarname}
 
                                     kill_id=`netstat -tunlp|grep 8443|awk \'{print $7}\'|awk -F \'/\' \'{print $1}\'`
 
